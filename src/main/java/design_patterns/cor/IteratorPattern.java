@@ -3,6 +3,8 @@ package design_patterns.cor;
 import java.util.Iterator;
 import java.util.List;
 
+//  https://en.wikipedia.org/wiki/Iterator_pattern
+
 public class IteratorPattern {
     public static void main(String[] args) {
         for(int x: new Doubler()) {

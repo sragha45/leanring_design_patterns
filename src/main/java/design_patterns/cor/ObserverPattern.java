@@ -34,7 +34,6 @@ class Keyboard implements Observable<Observer<Character>, Character> {
     List<Observer<Character>> observers = new ArrayList<>();
 
     @Override
-
     public void notify(Character data) {
         observers.forEach(characterObserver -> characterObserver.update(data));
     }
